@@ -1,7 +1,6 @@
 package socketio
 
 import (
-	"code.google.com/p/go.net/websocket"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -10,6 +9,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/golang/net/websocket"
 )
 
 const (

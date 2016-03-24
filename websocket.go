@@ -2,9 +2,10 @@ package socketio
 
 import (
 	"bytes"
-	"code.google.com/p/go.net/websocket"
 	"io"
 	"time"
+
+	"github.com/golang/net/websocket"
 )
 
 func init() {

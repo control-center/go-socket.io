@@ -1,12 +1,13 @@
 package socketio
 
 import (
-	"code.google.com/p/go.net/websocket"
 	"fmt"
 	"net/http"
 	"regexp"
 	"strings"
 	"sync"
+
+	"github.com/golang/net/websocket"
 )
 
 var (
