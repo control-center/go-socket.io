@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/net/websocket"
+	"golang.org/x/net/websocket"
 )
 
 const (

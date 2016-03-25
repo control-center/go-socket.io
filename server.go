@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/golang/net/websocket"
+	"golang.org/x/net/websocket"
 )
 
 var (

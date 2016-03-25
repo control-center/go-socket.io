@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/golang/net/websocket"
+	"golang.org/x/net/websocket"
 )
 
 func init() {
